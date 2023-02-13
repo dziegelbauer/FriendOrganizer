@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\FriendOrganizer.DataAccess\FriendOrganizer.DataAccess.csproj" />
+        <ProjectReference Include="..\FriendOrganizer.Model\FriendOrganizer.Model.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="6.5.0" />
+        <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+        <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+        <PackageReference Include="MahApps.Metro.Resources" Version="0.6.1" />
+        <PackageReference Include="Prism.Core" Version="8.1.97" />
+    </ItemGroup>
+
+</Project>
